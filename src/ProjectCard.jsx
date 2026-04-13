@@ -19,10 +19,7 @@ export default function ProjectCard({ rawContent }) {
     if (titleMatch) {
       title = titleMatch[1].trim();
     } else if (imageMatch) {
-      const rawPath = imageMatch[1].trim();
-      image = rawPath.startsWith('http') 
-        ? rawPath 
-        : `${import.meta.env.BASE_URL}${rawPath.replace(/^\//, '')}`;
+      image = imageMatch[1].trim();
     } else if (kvMatch) {
       const key = kvMatch[1].trim();
       const value = kvMatch[2].trim();
@@ -55,7 +52,7 @@ export default function ProjectCard({ rawContent }) {
       {image && (
         <div className="w-full h-56 overflow-hidden bg-gray-100">
           <img 
-            src={image} 
+            src={import.meta.env.BASE_URL + image}
             alt={title} 
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" 
           />
