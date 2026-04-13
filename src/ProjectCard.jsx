@@ -19,7 +19,10 @@ export default function ProjectCard({ rawContent }) {
     if (titleMatch) {
       title = titleMatch[1].trim();
     } else if (imageMatch) {
-      image = imageMatch[1].trim();
+      const rawPath = imageMatch[1].trim();
+      image = rawPath.startsWith('http') 
+        ? rawPath 
+        : `${import.meta.env.BASE_URL}${rawPath.replace(/^\//, '')}`;
     } else if (kvMatch) {
       const key = kvMatch[1].trim();
       const value = kvMatch[2].trim();
