@@ -47,7 +47,7 @@ export default function ProjectCard({ rawContent }) {
     : fullDescription;
 
   return (
-    <div className="bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden flex flex-col">
+    <div className="bg-white border border-gray-200 rounded-sm shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden flex flex-col">
 
       {image && (
         <div className="w-full h-56 overflow-hidden bg-gray-100">
@@ -59,8 +59,8 @@ export default function ProjectCard({ rawContent }) {
         </div>
       )}
 
-      <div className="p-6 md:p-8 flex flex-col flex-grow">
-        <h3 className="text-2xl font-bold text-gray-900 mb-3">{title}</h3>
+      <div className="p-4 md:p-6 flex flex-col flex-grow">
+        <h3 className="text-2xl font-semibold text-gray-900 mb-3">{title}</h3>
 
         {tags.length > 0 && (
           <div className="flex flex-wrap gap-2 mb-4">
@@ -96,7 +96,7 @@ export default function ProjectCard({ rawContent }) {
                   href={link.url} 
                   target="_blank" 
                   rel="noreferrer"
-                  className={`inline-block px-4 py-2 text-sm font-medium rounded-lg transition-all ${
+                  className={`inline-block px-4 py-2 text-sm font-medium rounded-sm transition-all ${
                     isPrimary 
                       ? "bg-gray-900 text-white hover:bg-gray-700 hover:shadow-md" 
                       : "bg-olive-50 text-olive-700 border border-olive-200 hover:bg-olive-100 hover:border-olive-300 hover:shadow-sm"

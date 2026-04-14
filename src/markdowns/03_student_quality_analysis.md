@@ -4,5 +4,5 @@ This research focuses on the quantification of soft skills among university stud
 
 This is currently an ongoing project.
 
-Tags=Graph,Research,Data Visualization
+Tags=Graph,Research,Data Visualization,Recommendation System
 Github=https://github.com/pengwen101/student-recommendation-system
