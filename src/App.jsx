@@ -70,7 +70,7 @@ export default function App() {
         </header>
 
         <aside className={`
-          fixed inset-y-0 left-0 z-50 w-72 md:w-80 bg-white/80 backdrop-blur-xl border-r border-olive-100 p-6 flex flex-col justify-center shadow-xl md:shadow-none
+          fixed inset-y-0 left-0 z-50 w-72 md:w-80 bg-white/80 backdrop-blur-xl border-r border-olive-100 p-8 flex flex-col justify-start shadow-xl md:shadow-none
           transition-transform duration-300 ease-in-out -tranolive-x-full
           md:tranolive-x-0 md:static md:h-screen md:sticky md:top-0 md:overflow-y-auto
         `}>
@@ -78,7 +78,7 @@ export default function App() {
           <div className="mb-8">
             <h1 className="text-xl font-bold text-olive-800 mb-3 leading-tight tracking-tight">Amelia Wibisono</h1>
             <p className="text-sm text-olive-600 leading-relaxed mb-5">
-              Hi! I use data to discover trends and insights. You can find my data-related projects here, ranging from data visualization to recommendation system and natural language processing.
+              Hi! I'm a data scientist experienced in using data to discover trends and insights. You can find my data-related projects here, ranging from data visualization to recommendation system and natural language processing.
             </p>
             
             <div className="flex gap-4">
