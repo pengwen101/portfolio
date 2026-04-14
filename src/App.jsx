@@ -107,7 +107,7 @@ export default function App() {
           <div className="relative md:hidden mb-8">
             <h1 className="text-xl font-bold text-olive-800 mb-3 leading-tight tracking-tight">Amelia Wibisono</h1>
             <p className="text-sm text-olive-600 leading-relaxed mb-5">
-              Hi! I use data to discover trends and insights. You can find my data-related projects here, ranging from data visualization to recommendation system and natural language processing.
+              Hi! I'm a data scientist experienced in using data to discover trends and insights. You can find my data-related projects here, ranging from data visualization to recommendation system and natural language processing.
             </p>
             
             <div className="flex gap-4">
