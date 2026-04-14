@@ -71,8 +71,8 @@ export default function App() {
 
         <aside className={`
           fixed inset-y-0 left-0 z-50 w-72 md:w-80 bg-white/80 backdrop-blur-xl border-r border-olive-100 p-8 flex flex-col justify-start shadow-xl md:shadow-none
-          transition-transform duration-300 ease-in-out -tranolive-x-full
-          md:tranolive-x-0 md:static md:h-screen md:sticky md:top-0 md:overflow-y-auto
+          transition-transform duration-300 ease-in-out -translate-x-full
+          md:translate-x-0 md:static md:h-screen md:sticky md:top-0 md:overflow-y-auto
         `}>
 
           <div className="mb-8">
