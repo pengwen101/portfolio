@@ -60,7 +60,7 @@ export default function ProjectCard({ rawContent }) {
       )}
 
       <div className="p-4 md:p-6 flex flex-col flex-grow">
-        <h3 className="text-2xl font-semibold text-gray-900 mb-3" style= {{ fontFamily: "'Andika', sans-serif", fontWeight: 700 }}>{title}</h3>
+        <h3 className="text-2xl font-semibold text-gray-900 mb-3" style= {{ fontFamily: "'Bricolage Grotesque', sans-serif" }}>{title}</h3>
 
         {tags.length > 0 && (
           <div className="flex flex-wrap gap-2 mb-4">
